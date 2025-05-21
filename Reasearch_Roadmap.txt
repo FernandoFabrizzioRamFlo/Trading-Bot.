@@ -1,0 +1,129 @@
+==================================================================
+                 I. MACHINE LEARNING (Time Series & Classification)
+==================================================================
+
+LEVEL 1: FOUNDATIONS
+
+[  ] 1. Learn basic statistics 
+         - Mean, standard deviation, correlation, variance, z-score
+
+[  ] 2. Introduction to Machine Learning
+         - Supervised vs. Unsupervised algorithms
+         - Overfitting, underfitting, bias/variance trade-off
+
+[  ] 3. Python ML stack:
+         - numpy, pandas, matplotlib, scikit-learn
+
+
+LEVEL 2: BASIC MODELING
+
+[  ] 4. Classical Models:
+         - Linear regression, logistic regression
+         - Decision trees, Random Forest, KNN
+
+[  ] 5. Model Evaluation:
+         - Accuracy, precision, recall, F1, ROC-AUC
+
+
+LEVEL 3: TIME SERIES
+
+[  ] 6. Introduction to Time Series
+         - statsmodels, pmdarima, prophet
+         - Moving Averages, Holt-Winters, ARIMA
+
+[  ] 7. Data Preprocessing:
+         - Normalization, sliding windows, differencing, lag features
+
+
+LEVEL 4: NEURAL NETWORKS FOR TRADING
+
+[  ] 8. Intro to TensorFlow or PyTorch
+         - Dense neural networks (MLP)
+         - LSTM and GRU for time series
+
+[  ] 9. Efficient training on limited devices (Pi Zero)
+         - Pretrained models
+         - Quantization and ONNX export
+
+
+------------------------------------------------------------------
+         II. TRADING TECHNIQUES (Rules + ML-Based Strategies)
+------------------------------------------------------------------
+
+LEVEL 1: FOUNDATIONS
+
+[  ] 1. How does an exchange work?
+         - Market order, limit order, stop-loss
+
+[  ] 2. Asset Types:
+         - Spot, futures, ETFs, stablecoins
+
+[  ] 3. Risk Management:
+         - Position sizing, stop loss, drawdown, Sharpe ratio
+
+
+LEVEL 2: RULE-BASED STRATEGIES
+
+[  ] 4. Technical Indicators:
+         - RSI, MACD, Bollinger Bands, SMA/EMA
+         - Using `ta` or `bt` in Python
+
+[  ] 5. Simple Strategies:
+         - Moving average crossover
+         - RSI thresholds
+         - Mean reversion
+
+
+LEVEL 3: BACKTESTING AND OPTIMIZATION
+
+[  ] 6. Tools: backtrader, bt, quantstats
+
+[  ] 7. Cross-validation for trading (walk-forward analysis)
+
+[  ] 8. Simulating costs, slippage, and commissions
+
+
+LEVEL 4: AUTOMATED DECISION INTEGRATION
+
+[  ] 9. Design Decision Module:
+         - Input: OHLCV data + indicators
+         - Output: action signal ("buy", "hold", "sell")
+
+[  ] 10. Merge rules with ML for a hybrid approach
+
+
+------------------------------------------------------------------
+          III. LLMs + APIs (Contextual Signals & Enrichment)
+------------------------------------------------------------------
+
+LEVEL 1: FOUNDATIONS
+
+[  ] 1. What is an LLM and what can it do for your bot?
+         - Sentiment analysis, news summarization, qualitative signal generation
+
+[  ] 2. OpenAI API, Hugging Face API:
+         - Basic usage with Python (openai, requests)
+
+
+LEVEL 2: STRATEGY INTEGRATION
+
+[  ] 3. Fetch market news via RSS/API 
+         - Tools: newsapi, cryptopanic, coingecko
+
+[  ] 4. Process text with LLMs to gain market insights
+
+
+LEVEL 3: LLMs AS ADVISORS
+
+[  ] 5. Send market + portfolio context to an LLM
+         - Receive responses like "execute buy", "stay out of market"
+
+[  ] 6. Use embeddings to store and search relevant financial context
+         - Tools: sentence-transformers, faiss, chroma
+
+
+LEVEL 4: SECURITY AND COST
+
+[  ] 7. Limit API call frequency
+
+[  ] 8. Run local LLM (e.g., GPT4All) from an external server
