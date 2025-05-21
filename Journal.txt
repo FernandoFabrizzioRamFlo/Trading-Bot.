@@ -1,0 +1,6 @@
+Wensday, May/21/2025.
+• Created Readme with well defined goals.
+• Beginning Initial research (which ML models would fit best? How would I train them? Which crypto broker should I use?...)
+
+Tuesday, May/20/2025.
+• Initial project design and brainstorming.
